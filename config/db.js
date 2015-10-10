@@ -6,7 +6,7 @@
  * @created 10/10/2015
  */
 
-var Waterline = require('Waterline');
+var Waterline = require('waterline');
 
 // create new instance of waterline
 var orm = new Waterline();
