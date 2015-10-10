@@ -17,7 +17,7 @@ module.exports = {
     // setup all type of connections you could have
     connections: {
         // Postgres connection configs
-        default: {
+        local: {
              adapter: 'postgresql',
              database: 'sample',
              host: 'localhost',
@@ -26,7 +26,17 @@ module.exports = {
              port: 5432,
              pool: false,
              ssl: false
-        }
+        },
+        default: {	// http://www.elephantsql.com/
+             adapter: 'postgresql',
+             database: 'hbfmyuyo',
+             host: 'pellefant-01.db.elephantsql.com',
+             user: 'hbfmyuyo',
+             password: '73hM53BtVTM4d8QvyshqmXGqszDGqIWJ',
+             port: 5432,
+             pool: false,
+             ssl: false
+		}
     },
 
     // some config about migration or something
