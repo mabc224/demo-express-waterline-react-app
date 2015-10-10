@@ -19,7 +19,7 @@ module.exports = {
     connections: {
         // Postgres connection configs
         default: {
-             adapter: 'default',
+             adapter: 'postgresql',
              database: 'sample',
              host: 'localhost',
              user: 'postgres',
