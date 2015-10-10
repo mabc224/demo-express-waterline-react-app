@@ -1,7 +1,24 @@
 {
   "name": "nodeApp",
   "version": "0.0.0",
+  "description": "app with Express.js, waterline, postgres, react.js (server side)",
   "private": true,
+  "main": "bin/www",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mabc224/demo-express-waterline-react-app.git"
+  },
+  "keywords": [
+    "express.js",
+    "react.js",
+    "waterline",
+    "postgres"
+  ],
+  "author": {
+    "name": "Arsalan B.",
+    "email": "mabc224@gmail.com"
+  },
+  "license": "",
   "scripts": {
     "start": "node ./bin/www"
   },
