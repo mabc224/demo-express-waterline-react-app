@@ -11,14 +11,14 @@ module.exports = {
 
     // setup adapters for each type of database
     adapters: {
-        default: postgresAdapter
+        postgresql: postgresAdapter
     },
 
     // setup all type of connections you could have
     connections: {
         // Postgres connection configs
         default: {
-             adapter: 'default',
+             adapter: 'postgresql',
              database: 'sample',
              host: 'localhost',
              user: 'postgres',
