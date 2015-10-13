@@ -12,8 +12,8 @@ The full source code is available at [https://github.com/mabc224/demo-express-wa
 3. go to the new folder `cd demo-express-waterline-react-app`
 4. install dependencies `npm install`
 5. setup database database
-5.1 create a database name as `sample`
-5.2 create a table `user` with two fields as `email` and `name` having datatype as text
+    1 create a database name as `sample`
+    2 create a table `user` with two fields as `email` and `name` having datatype as text
 6. configure postgres database connection in  config/connections.js accordingly
 ```shell
 module.exports = {
