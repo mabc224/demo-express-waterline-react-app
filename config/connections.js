@@ -19,7 +19,7 @@ module.exports = {
         // Postgres connection configs
         default: {
             adapter: 'postgresql',
-            database: 'sample',     // Postgres database name
+            database: 'newdb',     // Postgres database name
             host: 'localhost',      // Postgres database host
             user: 'postgres',       // Postgres database username
             password: 'root',       // Postgres database password
@@ -36,6 +36,6 @@ module.exports = {
         // alter - auto-migrate, but attempt to keep my existing data (experimental)
         // drop  - wipe/drop ALL my data and rebuild models every time I run node bin/www
 
-        migrate: 'safe' //  // safe, alter, drop'
+        migrate: 'drop' //  // safe, alter, drop'
     }
 };
